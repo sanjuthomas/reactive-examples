@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 import reactor.core.publisher.ConnectableFlux;
 import reactor.core.publisher.Flux;
 
-public class ConnectableFlowableExample {
+public class BroadcastExample {
 
   public static void main(String args[]) throws InterruptedException {
     final ConnectableFlux<Integer> connectableFlux = Flux.fromArray(new Integer[] {1, 2, 3, 4}).publish();
