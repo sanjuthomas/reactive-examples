@@ -1,4 +1,4 @@
-package com.sanjuthomas.reactive.examples;
+package com.sanjuthomas.reactor.examples;
 
 import java.util.function.Consumer;
 import reactor.core.publisher.ConnectableFlux;
